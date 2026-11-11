@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en-SG">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F0FAF9">
+  <meta name="description" content="Discover gentle, modern dental care at Crystal Dental Care in Serangoon, Singapore. Explore Invisalign, teeth whitening, dental implants, root canal treatment and more.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.crystaldental.sg/">
+  <title>Crystal Dental Care | Dentist in Serangoon, Singapore</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Crystal Dental Care | Gentle, Modern Dentistry">
+  <meta property="og:description" content="Clean, transparent and durable dental care in Serangoon, Singapore.">
+  <meta property="og:url" content="https://www.crystaldental.sg/">
+
+  <style>
+    :root {
+      --color-primary: #168FAF;
+      --color-primary-dark: #116B83;
+      --color-primary-light: #DDF3F5;
+      --color-secondary: #A9D9D5;
+      --color-secondary-dark: #164D59;
+      --color-secondary-light: #E4F1EF;
+      --color-accent: #F0B66D;
+      --color-heading: #17343D;
+      --color-text: #40545A;
+      --color-text-muted: #64797E;
+      --color-background: #FFFFFF;
+      --color-background-alt: #F4F8F7;
+      --color-surface: #F0FAF9;
+      --color-surface-alt: #F8FCFB;
+      --color-border: #D8E5E3;
+      --color-border-strong: #9BB7B5;
+      --color-interactive: #168FAF;
+      --color-interactive-hover: #116B83;
+      --color-focus: #164D59;
+
+      --font-heading: "Manrope", sans-serif;
+      --font-body: "Inter", sans-serif;
+      --container: 1280px;
+      --radius-sm: 12px;
+      --radius-md: 22px;
+      --radius-lg: 34px;
+      --shadow-soft: 0 18px 55px rgba(22, 77, 89, .09);
+      --shadow-card: 0 10px 35px rgba(22, 77, 89, .07);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+    body {
+      margin: 0;
+      color: var(--color-text);
+      background: var(--color-background);
+      font-family: var(--font-body);
+      font-size: 17px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin-inline: auto;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--color-primary-dark);
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--color-primary);
+    }
+    h1, h2, h3, h4 {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      line-height: 1.12;
+      letter-spacing: -.045em;
+    }
+    h1 { font-size: clamp(44px, 6.1vw, 78px); font-weight: 800; }
+    h2 { font-size: clamp(36px, 4.4vw, 56px); font-weight: 750; }
+    h3 { font-size: clamp(24px, 2.5vw, 32px); font-weight: 700; }
+    h4 { font-size: 21px; font-weight: 700; }
+    p { margin: 0; }
+    .section { padding: 112px 0; }
+    .section-head {
+      max-width: 720px;
+      margin-bottom: 54px;
+    }
+    .section-head h2 { margin-top: 18px; }
+    .section-head p {
+      margin-top: 20px;
+      max-width: 640px;
+      color: var(--color-text-muted);
+      font-size: 18px;
+    }
+    .section-head.center {
+      margin-inline: auto;
+      text-align: center;
+    }
+    .section-head.center .eyebrow { justify-content: center; }
+    .section-head.center p { margin-inline: auto; }
+    .btn {
+      min-height: 54px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 23px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      transition: transform .25s ease, background .25s ease, box-shadow .25s ease;
+      cursor: pointer;
+    }
+    .btn:hover {
+      transform: translateY(-3px);
+      background: var(--color-primary-dark);
+      box-shadow: 0 12px 26px rgba(17,107,131,.2);
+    }
+    .btn-outline {
+      border-color: var(--color-border-strong);
+      background: rgba(255,255,255,.72);
+      color: var(--color-heading);
+    }
+    .btn-outline:hover {
+      color: #fff;
+      border-color: var(--color-primary-dark);
+    }
+    .btn-light {
+      background: #fff;
+      color: var(--color-secondary-dark);
+    }
+    .btn-light:hover { background: var(--color-primary-light); color: var(--color-heading); }
+    .arrow { font-size: 20px; line-height: 1; }
+    .topbar {
+      background: var(--color-secondary-dark);
+      color: #fff;
+      font-size: 14px;
+    }
+    .topbar-inner {
+      min-height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+    }
+    .topbar a { color: #fff; }
+    .topbar-right { display: flex; gap: 24px; }
+    .site-header {
+      position: sticky;
+      z-index: 50;
+      top: 0;
+      background: rgba(255,255,255,.94);
+      border-bottom: 1px solid rgba(216,229,227,.8);
+      backdrop-filter: blur(16px);
+    }
+    .nav-wrap {
+      min-height: 86px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    .brand-mark {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 16px 16px 16px 5px;
+      color: white;
+      background: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 25px;
+      font-weight: 800;
+      box-shadow: 0 7px 18px rgba(22,143,175,.2);
+    }
+    .brand-name {
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 19px;
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -.04em;
+    }
+    .brand-name span {
+      display: block;
+      margin-top: 4px;
+      color: var(--color-text-muted);
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: clamp(16px, 2vw, 30px);
+    }
+    .nav-links a {
+      color: var(--color-heading);
+      font-size: 15px;
+      font-weight: 600;
+      transition: color .2s ease;
+    }
+    .nav-links a:hover { color: var(--color-primary); }
+    .nav-cta { min-height: 48px; padding: 11px 20px; }
+    .menu-toggle {
+      display: none;
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--color-border);
+      border-radius: 50%;
+      background: #fff;
+      color: var(--color-heading);
+      font-size: 23px;
+      cursor: pointer;
+    }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      isolation: isolate;
+      min-height: 700px;
+      padding: 82px 0 88px;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 80% 22%, rgba(169,217,213,.38), transparent 28%),
+        linear-gradient(120deg, #F8FCFB 0%, #EFF9F8 58%, #E4F1EF 100%);
+    }
+    .hero::before {
+      content: "CRYSTAL";
+      position: absolute;
+      z-index: -1;
+      right: -45px;
+      bottom: -110px;
+      color: rgba(22,143,175,.045);
+      font-family: var(--font-heading);
+      font-size: clamp(140px, 24vw, 340px);
+      font-weight: 800;
+      letter-spacing: -.09em;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.02fr .98fr;
+      align-items: center;
+      gap: 54px;
+    }
+    .hero-copy { position: relative; z-index: 2; }
+    .hero-copy h1 { max-width: 720px; margin-top: 22px; }
+    .hero-copy h1 em {
+      color: var(--color-primary);
+      font-style: normal;
+    }
+    .hero-copy > p {
+      max-width: 590px;
+      margin-top: 24px;
+      color: var(--color-text-muted);
+      font-size: 19px;
+      line-height: 1.7;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-top: 34px;
+    }
+    .hero-note {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 32px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+    .hero-note strong { color: var(--color-heading); }
+    .note-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      box-shadow: 0 0 0 6px rgba(22,143,175,.12);
+    }
+    .hero-art {
+      min-height: 500px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-photo-frame {
+      position: relative;
+      width: min(100%, 540px);
+      height: 480px;
+      overflow: hidden;
+      border-radius: 48% 48% 34px 34px;
+      background: linear-gradient(145deg, #B9E0DD, #E6F4F1 65%, #D5EBE8);
+      box-shadow: var(--shadow-soft);
+    }
+    .hero-photo-frame::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: linear-gradient(180deg, transparent 55%, rgba(17,73,85,.18));
+      pointer-events: none;
+    }
+    .hero-photo-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    .hero-orbit {
+      position: absolute;
+      width: 580px;
+      height: 580px;
+      border: 1px solid rgba(22,143,175,.2);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .hero-orbit::before, .hero-orbit::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(22,143,175,.16);
+      border-radius: 50%;
+    }
+    .hero-orbit::before { inset: 24px; }
+    .hero-orbit::after { inset: 50px; }
+    .float-label {
+      position: absolute;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 14px 18px;
+      border: 1px solid rgba(255,255,255,.8);
+      border-radius: 16px;
+      background: rgba(255,255,255,.92);
+      box-shadow: var(--shadow-card);
+      color: var(--color-heading);
+      font-size: 14px;
+      font-weight: 700;
+      backdrop-filter: blur(10px);
+    }
+    .float-label span {
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border-radius: 11px;
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      font-size: 19px;
+    }
+    .float-one { left: -28px; bottom: 56px; }
+    .float-two { right: -18px; top: 76px; }
+
+    /* Brand proof ribbon */
+    .proof-ribbon {
+      position: relative;
+      z-index: 3;
+      margin-top: -1px;
+      background: var(--color-secondary-dark);
+      color: #fff;
+    }
+    .proof-inner {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      align-items: center;
+    }
+    .proof-item {
+      min-height: 112px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 22px;
+      border-right: 1px solid rgba(255,255,255,.17);
+    }
+    .proof-item:last-child { border: 0; }
+    .proof-symbol {
+      color: #A9D9D5;
+      font-family: var(--font-heading);
+      font-size: 30px;
+      font-weight: 800;
+    }
+    .proof-item strong { display: block; font-size: 16px; }
+    .proof-item small { display: block; color: rgba(255,255,255,.7); font-size: 14px; }
+
+    /* Intro */
+    .intro-grid {
+      display: grid;
+      grid-template-columns: .82fr 1.18fr;
+      gap: 90px;
+      align-items: start;
+    }
+    .intro-aside {
+      position: sticky;
+      top: 130px;
+    }
+    .intro-aside h2 { margin-top: 18px; }
+    .intro-copy p {
+      color: var(--color-text-muted);
+      font-size: 18px;
+    }
+    .intro-copy p + p { margin-top: 20px; }
+    .intro-statement {
+      margin-top: 34px;
+      padding: 25px 0 25px 25px;
+      border-left: 3px solid var(--color-primary);
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    /* Six custom SVG icon system */
+    .icon-system {
+      background: var(--color-surface);
+      overflow: hidden;
+    }
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 42px 34px;
+    }
+    .icon-item {
+      min-height: 210px;
+      padding: 26px 20px 20px;
+      border-top: 1px solid var(--color-border-strong);
+      transition: transform .25s ease;
+    }
+    .icon-item:hover { transform: translateY(-5px); }
+    .icon-visual {
+      width: 76px;
+      height: 76px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 24px;
+      border-radius: 24px 24px 24px 8px;
+      background: #fff;
+      box-shadow: var(--shadow-card);
+      color: var(--color-primary-dark);
+    }
+    .icon-visual svg { width: 43px; height: 43px; }
+    .icon-item h3 { font-size: 22px; }
+    .icon-item p {
+      margin-top: 10px;
+      color: var(--color-text-muted);
+      font-size: 16px;
+    }
+
+    /* Services */
+    .services-section { background: #fff; }
+    .services-layout {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      gap: 70px;
+      align-items: start;
+    }
+    .services-intro {
+      position: sticky;
+      top: 130px;
+    }
+    .services-intro h2 { margin-top: 18px; }
+    .services-intro p {
+      margin-top: 20px;
+      color: var(--color-text-muted);
+      font-size: 18px;
+    }
+    .service-list { border-top: 1px solid var(--color-border); }
+    .service-row {
+      display: grid;
+      grid-template-columns: 70px 1fr 42px;
+      align-items: center;
+      gap: 20px;
+      padding: 25px 0;
+      border-bottom: 1px solid var(--color-border);
+      transition: padding .25s ease;
+    }
+    .service-row:hover { padding-inline: 12px; }
+    .service-number {
+      color: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .service-row h3 { font-size: 23px; }
+    .service-row p {
+      margin-top: 6px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+    .service-arrow {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      font-size: 20px;
+      transition: background .2s ease, color .2s ease;
+    }
+    .service-row:hover .service-arrow {
+      background: var(--color-primary);
+      color: #fff;
+    }
+    .services-foot {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 22px 24px;
+      border-radius: var(--radius-md);
+      background: var(--color-surface);
+    }
+    .services-foot p { font-size: 16px; font-weight: 600; color: var(--color-heading); }
+
+    /* Patient journey */
+    .journey-section {
+      position: relative;
+      overflow: hidden;
+      background: var(--color-secondary-dark);
+      color: #fff;
+    }
+    .journey-section::after {
+      content: "";
+      position: absolute;
+      right: -200px;
+      top: -220px;
+      width: 620px;
+      height: 620px;
+      border: 1px solid rgba(169,217,213,.18);
+      border-radius: 50%;
+      box-shadow: 0 0 0 45px rgba(169,217,213,.035), 0 0 0 90px rgba(169,217,213,.025);
+    }
+    .journey-section h2 { color: #fff; }
+    .journey-section .eyebrow { color: #A9D9D5; }
+    .journey-section .section-head p { color: rgba(255,255,255,.72); }
+    .journey-steps {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-top: 58px;
+    }
+    .journey-step {
+      position: relative;
+      padding-top: 26px;
+      border-top: 1px solid rgba(255,255,255,.35);
+    }
+    .journey-step .step-no {
+      color: #A9D9D5;
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .journey-step h3 {
+      margin-top: 18px;
+      color: #fff;
+      font-size: 22px;
+    }
+    .journey-step p {
+      margin-top: 12px;
+      color: rgba(255,255,255,.72);
+      font-size: 16px;
+    }
+
+    /* Team */
+    .team-section { background: var(--color-background-alt); }
+    .team-intro-row {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 48px;
+    }
+    .team-intro-row .section-head { margin-bottom: 0; }
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .doctor {
+      min-height: 240px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 28px;
+      border-top: 3px solid var(--color-primary);
+      background: #fff;
+      box-shadow: var(--shadow-card);
+    }
+    .doctor:nth-child(3n+2) { transform: translateY(22px); }
+    .doctor .doctor-index {
+      color: var(--color-primary);
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .1em;
+    }
+    .doctor h3 { margin-top: 25px; font-size: 23px; }
+    .doctor .degree {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--color-primary-dark);
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .doctor p {
+      margin-top: 13px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+    .team-note {
+      margin-top: 58px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+
+    /* Clinic promise */
+    .promise-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 76px;
+    }
+    .promise-visual {
+      position: relative;
+      min-height: 500px;
+      overflow: hidden;
+      border-radius: 34px 34px 120px 34px;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,.7), transparent 35%),
+        linear-gradient(145deg, #DDF3F5, #A9D9D5);
+    }
+    .promise-visual::before {
+      content: "";
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 1px solid rgba(17,107,131,.25);
+      border-radius: 50%;
+      box-shadow: 0 0 0 30px rgba(255,255,255,.13), 0 0 0 60px rgba(255,255,255,.1);
+    }
+    .promise-visual::after {
+      content: "CARE";
+      position: absolute;
+      left: 25px;
+      bottom: 5px;
+      color: rgba(17,107,131,.1);
+      font-family: var(--font-heading);
+      font-size: 120px;
+      font-weight: 800;
+      letter-spacing: -.08em;
+    }
+    .tooth-art {
+      position: absolute;
+      z-index: 1;
+      width: 210px;
+      height: 250px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -52%);
+      filter: drop-shadow(0 22px 22px rgba(17,107,131,.16));
+    }
+    .promise-copy h2 { margin-top: 18px; }
+    .promise-copy > p {
+      margin-top: 22px;
+      color: var(--color-text-muted);
+      font-size: 18px;
+    }
+    .promise-points {
+      display: grid;
+      gap: 18px;
+      margin-top: 34px;
+    }
+    .promise-point {
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      gap: 14px;
+    }
+    .check {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      font-weight: 800;
+    }
+    .promise-point strong { color: var(--color-heading); }
+    .promise-point p { margin-top: 3px; color: var(--color-text-muted); font-size: 15px; }
+
+    /* Appointment callout */
+    .appointment-section { padding: 30px 0 110px; }
+    .appointment-panel {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 36px;
+      padding: 56px 62px;
+      overflow: hidden;
+      border-radius: 32px;
+      background: linear-gradient(115deg, var(--color-primary-dark), var(--color-secondary-dark));
+      color: #fff;
+    }
+    .appointment-panel::after {
+      content: "";
+      position: absolute;
+      right: 180px;
+      top: -180px;
+      width: 390px;
+      height: 390px;
+      border: 1px solid rgba(255,255,255,.15);
+      border-radius: 50%;
+      box-shadow: 0 0 0 35px rgba(255,255,255,.035), 0 0 0 70px rgba(255,255,255,.025);
+    }
+    .appointment-panel h2 {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      color: #fff;
+      font-size: clamp(32px, 4vw, 48px);
+    }
+    .appointment-panel p {
+      position: relative;
+      z-index: 1;
+      max-width: 650px;
+      margin-top: 14px;
+      color: rgba(255,255,255,.78);
+      font-size: 17px;
+    }
+    .appointment-panel .btn { position: relative; z-index: 2; white-space: nowrap; }
+
+    /* Contact */
+    .contact-section { background: var(--color-surface); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 80px;
+    }
+    .contact-copy h2 { margin-top: 18px; }
+    .contact-copy > p {
+      margin-top: 20px;
+      color: var(--color-text-muted);
+      font-size: 18px;
+    }
+    .contact-details {
+      display: grid;
+      gap: 18px;
+      margin-top: 34px;
+    }
+    .contact-detail {
+      display: grid;
+      grid-template-columns: 48px 1fr;
+      gap: 15px;
+      align-items: center;
+    }
+    .contact-icon {
+      width: 48px;
+      height: 48px;
+      display: grid;
+      place-items: center;
+      border-radius: 15px;
+      background: #fff;
+      color: var(--color-primary-dark);
+      font-size: 20px;
+      box-shadow: var(--shadow-card);
+    }
+    .contact-detail small {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: 14px;
+    }
+    .contact-detail strong {
+      display: block;
+      color: var(--color-heading);
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .contact-detail a:hover { color: var(--color-primary); }
+    .hours-panel {
+      padding: 36px;
+      border: 1px solid var(--color-border);
+      border-radius: 28px;
+      background: #fff;
+      box-shadow: var(--shadow-card);
+    }
+    .hours-panel h3 { font-size: 27px; }
+    .hours-panel > p {
+      margin-top: 8px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 17px 0;
+      border-bottom: 1px solid var(--color-border);
+      font-size: 15px;
+    }
+    .hours-row strong { color: var(--color-heading); }
+    .hours-row:last-of-type { border-bottom: 0; }
+    .hours-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    /* Footer */
+    .site-footer {
+      padding: 70px 0 28px;
+      background: #123F49;
+      color: rgba(255,255,255,.74);
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr .8fr .9fr;
+      gap: 60px;
+      padding-bottom: 50px;
+    }
+    .site-footer .brand-name { color: #fff; }
+    .site-footer .brand-name span { color: rgba(255,255,255,.58); }
+    .footer-about p {
+      max-width: 380px;
+      margin-top: 22px;
+      font-size: 15px;
+    }
+    .footer-col h3 {
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .footer-links { display: grid; gap: 12px; }
+    .footer-links a { font-size: 15px; }
+    .footer-links a:hover { color: #A9D9D5; }
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,.16);
+      font-size: 13px;
+    }
+    .footer-bottom a { color: #fff; }
+
+    /* Mobile conversion bar */
+    .mobile-cta {
+      position: fixed;
+      z-index: 80;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: none;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      border-top: 1px solid var(--color-border);
+      background: rgba(255,255,255,.96);
+      box-shadow: 0 -8px 28px rgba(22,77,89,.1);
+      backdrop-filter: blur(14px);
+    }
+    .mobile-cta .btn {
+      min-height: 48px;
+      padding: 10px 12px;
+      font-size: 15px;
+    }
+
+    /* Reveal motion */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 1050px) {
+      .nav-links { gap: 15px; }
+      .nav-links a { font-size: 14px; }
+      .hero-grid { gap: 28px; }
+      .hero-art { min-height: 430px; }
+      .hero-photo-frame { height: 420px; }
+      .intro-grid, .services-layout, .promise-grid, .contact-grid { gap: 48px; }
+      .appointment-panel { padding: 45px; }
+    }
+    @media (max-width: 820px) {
+      .container { width: min(100% - 36px, var(--container)); }
+      .section { padding: 82px 0; }
+      .topbar-inner { justify-content: center; }
+      .topbar-right { display: none; }
+      .nav-wrap { min-height: 76px; }
+      .menu-toggle { display: grid; place-items: center; }
+      .nav-cta { display: none; }
+      .nav-links {
+        position: absolute;
+        top: 76px;
+        left: 0;
+        right: 0;
+        display: none;
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0;
+        padding: 10px 24px 22px;
+        border-bottom: 1px solid var(--color-border);
+        background: #fff;
+        box-shadow: var(--shadow-card);
+      }
+      .nav-links.is-open { display: flex; }
+      .nav-links a { padding: 13px 0; border-bottom: 1px solid var(--color-border); font-size: 16px; }
+      .hero { padding: 62px 0 68px; }
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-copy { max-width: 720px; }
+      .hero-art { min-height: 430px; margin-top: 15px; }
+      .hero-photo-frame { width: min(90%, 520px); height: 410px; }
+      .hero-orbit { width: 480px; height: 480px; }
+      .float-one { left: 0; }
+      .float-two { right: 0; }
+      .proof-inner { grid-template-columns: 1fr; }
+      .proof-item {
+        min-height: 78px;
+        justify-content: flex-start;
+        padding-inline: 10px;
+        border-right: 0;
+        border-bottom: 1px solid rgba(255,255,255,.17);
+      }
+      .intro-grid, .services-layout, .promise-grid, .contact-grid { grid-template-columns: 1fr; }
+      .intro-aside, .services-intro { position: static; }
+      .intro-grid { gap: 28px; }
+      .services-layout { gap: 36px; }
+      .journey-steps { grid-template-columns: repeat(2, 1fr); row-gap: 36px; }
+      .team-intro-row { align-items: start; flex-direction: column; }
+      .team-grid { grid-template-columns: repeat(2, 1fr); }
+      .doctor:nth-child(3n+2) { transform: none; }
+      .promise-visual { min-height: 390px; }
+      .appointment-panel { grid-template-columns: 1fr; padding: 38px; }
+      .appointment-panel .btn { justify-self: start; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .footer-about { grid-column: 1 / -1; }
+    }
+    @media (max-width: 560px) {
+      body { font-size: 16px; }
+      .container { width: calc(100% - 32px); }
+      .section { padding: 68px 0; }
+      .section-head { margin-bottom: 36px; }
+      .section-head p { font-size: 16px; }
+      .brand-mark { width: 42px; height: 42px; }
+      .brand-name { font-size: 17px; }
+      .hero { padding: 50px 0 58px; }
+      .hero-copy h1 { font-size: clamp(42px, 12vw, 58px); }
+      .hero-copy > p { font-size: 17px; }
+      .hero-actions { display: grid; grid-template-columns: 1fr; }
+      .hero-actions .btn { width: 100%; }
+      .hero-art { min-height: 350px; }
+      .hero-photo-frame { height: 340px; width: 88%; border-radius: 48% 48% 24px 24px; }
+      .hero-orbit { width: 360px; height: 360px; }
+      .float-label { padding: 10px 12px; font-size: 13px; }
+      .float-label span { width: 30px; height: 30px; }
+      .float-one { left: -3px; bottom: 25px; }
+      .float-two { right: -3px; top: 30px; }
+      .proof-item { padding-inline: 0; }
+      .proof-symbol { font-size: 25px; }
+      .intro-statement { font-size: 19px; }
+      .icon-grid { grid-template-columns: repeat(2, 1fr); gap: 25px 16px; }
+      .icon-item { min-height: 210px; padding: 20px 8px 10px; }
+      .icon-visual { width: 64px; height: 64px; border-radius: 20px 20px 20px 6px; }
+      .icon-visual svg { width: 36px; height: 36px; }
+      .icon-item h3 { font-size: 19px; }
+      .icon-item p { font-size: 15px; }
+      .service-row { grid-template-columns: 38px 1fr 36px; gap: 12px; padding: 21px 0; }
+      .service-row h3 { font-size: 19px; }
+      .service-row p { font-size: 15px; }
+      .service-arrow { width: 36px; height: 36px; }
+      .services-foot { align-items: flex-start; flex-direction: column; }
+      .journey-steps { grid-template-columns: 1fr 1fr; gap: 28px 18px; }
+      .journey-step h3 { font-size: 19px; }
+      .journey-step p { font-size: 15px; }
+      .team-grid { grid-template-columns: 1fr; gap: 14px; }
+      .doctor { min-height: 195px; padding: 23px; }
+      .doctor h3 { margin-top: 18px; }
+      .team-note { margin-top: 30px; }
+      .promise-visual { min-height: 320px; border-radius: 24px 24px 90px 24px; }
+      .tooth-art { width: 170px; height: 205px; }
+      .promise-visual::after { font-size: 85px; }
+      .appointment-section { padding: 12px 0 75px; }
+      .appointment-panel { padding: 30px 24px; border-radius: 24px; }
+      .appointment-panel .btn { width: 100%; }
+      .hours-panel { padding: 25px 20px; }
+      .hours-row { font-size: 14px; }
+      .hours-actions { display: grid; }
+      .hours-actions .btn { width: 100%; }
+      .footer-grid { grid-template-columns: 1fr; gap: 34px; }
+      .footer-about { grid-column: auto; }
+      .footer-bottom { flex-direction: column; }
+      .mobile-cta { display: grid; }
+      body { padding-bottom: 78px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Crystal Dental Care",
+    "url": "https://www.crystaldental.sg/",
+    "telephone": "+65 6612 1955",
+    "email": "care@crystaldental.sg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "262 Serangoon Central Drive, #01-109",
+      "addressLocality": "Singapore",
+      "postalCode": "550262",
+      "addressCountry": "SG"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "09:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Friday", "Saturday", "Sunday"],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": [
+      "https://sg.linkedin.com/company/crystal-dental-care-pte-ltd"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Gentle, modern dentistry in Serangoon, Singapore</span>
+      <div class="topbar-right">
+        <a href="tel:+6566121955">Call +65 6612 1955</a>
+        <a href="https://wa.me/6588115774" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Crystal Dental Care home">
+        <span class="brand-mark" aria-hidden="true">C</span>
+        <span class="brand-name">Crystal Dental Care<span>Serangoon · Singapore</span></span>
+      </a>
+
+      <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+        <a href="#about">Our approach</a>
+        <a href="#services">Treatments</a>
+        <a href="#team">Our doctors</a>
+        <a href="#contact">Visit us</a>
+      </nav>
+
+      <a class="btn nav-cta" href="https://www.crystaldental.sg/online-booking">
+        Book an appointment <span class="arrow">↗</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">Thoughtful dentistry, lasting care</span>
+          <h1>Feel at ease.<br>Smile with <em>confidence.</em></h1>
+          <p>
+            Discover gentle, modern dental care built around clarity,
+            precision and your long-term comfort. From everyday check-ups
+            to smile transformations, we're here to help you make informed
+            decisions about your dental health.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="https://www.crystaldental.sg/online-booking">
+              Book an appointment <span class="arrow">↗</span>
+            </a>
+            <a class="btn btn-outline" href="#services">
+              Explore treatments <span class="arrow">↓</span>
+            </a>
+          </div>
+          <div class="hero-note">
+            <span class="note-dot"></span>
+            <span><strong>Crystal Dental Care</strong> · 262 Serangoon Central Drive</span>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Illustrative dental care photography">
+          <div class="hero-orbit" aria-hidden="true"></div>
+          <div class="hero-photo-frame">
+            <img
+              src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=1100&q=85"
+              alt="Illustrative photograph of a modern dental care setting"
+              fetchpriority="high"
+              onerror="this.style.display='none'; this.parentElement.style.background='linear-gradient(145deg,#DDF3F5,#A9D9D5)';"
+            >
+          </div>
+          <div class="float-label float-one"><span>✦</span> Thoughtful patient care</div>
+          <div class="float-label float-two"><span>＋</span> Modern dentistry</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-ribbon" aria-label="Clinic approach">
+      <div class="container proof-inner">
+        <div class="proof-item">
+          <span class="proof-symbol">01</span>
+          <div><strong>Clean & considered</strong><small>A hygienic clinical environment</small></div>
+        </div>
+        <div class="proof-item">
+          <span class="proof-symbol">02</span>
+          <div><strong>Clear communication</strong><small>Understand your treatment options</small></div>
+        </div>
+        <div class="proof-item">
+          <span class="proof-symbol">03</span>
+          <div><strong>Long-term perspective</strong><small>Care focused on lasting outcomes</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container intro-grid">
+        <div class="intro-aside reveal">
+          <span class="eyebrow">The Crystal approach</span>
+          <h2>Care that starts with understanding.</h2>
+        </div>
+        <div class="intro-copy reveal">
+          <p>
+            Dental care should feel clear, considered and personal. At
+            Crystal Dental Care, the focus is on combining modern dentistry
+            with a calm, professional environment and an approach centred
+            on patient comfort.
+          </p>
+          <p>
+            Whether you're visiting for preventive care, exploring
+            orthodontic options or considering restorative treatment,
+            the aim is to help you understand your options and take the
+            next step with confidence.
+          </p>
+          <div class="intro-statement">
+            “Your smile deserves more than a quick fix. It deserves care
+            that considers what comes next.”
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section icon-system" aria-labelledby="care-pillars-title">
+      <div class="container">
+        <div class="section-head center reveal">
+          <span class="eyebrow">What matters in your care</span>
+          <h2 id="care-pillars-title">A thoughtful approach, at every step.</h2>
+          <p>
+            A more considered dental experience brings together the
+            environment, the people and the details behind your treatment.
+          </p>
+        </div>
+
+        <!-- Exactly six custom SVG icons, arranged in two rows of three. -->
+        <div class="icon-grid">
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Dental care shield icon">
+                <path d="M24 5 39 11v11c0 10-6.5 16.5-15 21C15.5 38.5 9 32 9 22V11L24 5Z"/>
+                <path d="m17 24 5 5 10-11"/>
+              </svg>
+            </div>
+            <h3>Patient confidence</h3>
+            <p>Clear conversations help you understand your dental care and the options available.</p>
+          </article>
+
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Dental precision icon">
+                <circle cx="24" cy="24" r="17"/>
+                <circle cx="24" cy="24" r="9"/>
+                <path d="M24 2v7M24 39v7M2 24h7M39 24h7"/>
+                <path d="m20 24 3 3 6-7"/>
+              </svg>
+            </div>
+            <h3>Clinical precision</h3>
+            <p>A considered approach to diagnosis, treatment planning and dental work.</p>
+          </article>
+
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Clean environment icon">
+                <path d="M24 5c-7 0-12 5-12 12 0 9 7 15 12 24 5-9 12-15 12-24 0-7-5-12-12-12Z"/>
+                <path d="m18 23 4 4 8-9"/>
+                <path d="M7 10 4 7M41 10l3-3M7 38l-3 3M41 38l3 3"/>
+              </svg>
+            </div>
+            <h3>Clean environment</h3>
+            <p>Dedicated attention to hygiene and a professional treatment environment.</p>
+          </article>
+
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Dental laboratory icon">
+                <path d="M10 10h28v28H10z"/>
+                <path d="M16 17h16M16 23h10M16 29h16"/>
+                <path d="M6 6h36v36H6z" stroke-dasharray="2 4"/>
+              </svg>
+            </div>
+            <h3>In-house dental lab</h3>
+            <p>The clinic describes an in-house dental laboratory as part of its care environment.</p>
+          </article>
+
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Digital dentistry icon">
+                <rect x="7" y="8" width="34" height="25" rx="3"/>
+                <path d="M18 40h12M24 33v7"/>
+                <path d="M14 25c3-6 6-8 10-5 4-5 7-3 10 1"/>
+                <circle cx="16" cy="16" r="1"/>
+              </svg>
+            </div>
+            <h3>Modern equipment</h3>
+            <p>Technology and digital diagnostics support the clinic's modern dentistry approach.</p>
+          </article>
+
+          <article class="icon-item reveal">
+            <div class="icon-visual">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Smile care icon">
+                <path d="M8 18c4-7 10-11 16-11s12 4 16 11"/>
+                <path d="M10 23c3 11 8 17 14 17s11-6 14-17"/>
+                <path d="M16 24c2 4 5 6 8 6s6-2 8-6"/>
+                <path d="M18 17v3M30 17v3"/>
+              </svg>
+            </div>
+            <h3>Personalised comfort</h3>
+            <p>Care designed around individual needs, concerns and treatment choices.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container services-layout">
+        <div class="services-intro reveal">
+          <span class="eyebrow">Explore your options</span>
+          <h2>Find the care your smile needs.</h2>
+          <p>
+            From preventive appointments to more involved dental
+            treatments, explore the services available at Crystal Dental
+            Care and speak with the team about what may be suitable for you.
+          </p>
+          <a class="btn" style="margin-top:28px" href="https://www.crystaldental.sg/online-booking">
+            Talk to the clinic <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="reveal">
+          <div class="service-list">
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">01</span>
+              <span><h3>Braces & Invisalign</h3><p>Explore teeth-straightening options and discuss a treatment plan.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">02</span>
+              <span><h3>Teeth whitening</h3><p>Discuss professional whitening options for a brighter-looking smile.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">03</span>
+              <span><h3>Dental implants</h3><p>Explore tooth-replacement options with a dental consultation.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">04</span>
+              <span><h3>Root canal treatment</h3><p>Assessment and treatment for teeth affected by internal infection or damage.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">05</span>
+              <span><h3>Wisdom teeth removal</h3><p>Discuss assessment and treatment options for wisdom teeth concerns.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+            <a class="service-row" href="https://www.crystaldental.sg/online-booking">
+              <span class="service-number">06</span>
+              <span><h3>Cleaning & preventive care</h3><p>Routine dental cleaning and care to support ongoing oral health.</p></span>
+              <span class="service-arrow">↗</span>
+            </a>
+          </div>
+          <div class="services-foot">
+            <p>Not sure which treatment you need?</p>
+            <a href="https://wa.me/6588115774" class="btn btn-outline" target="_blank" rel="noopener">Ask the team <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">A clearer patient journey</span>
+          <h2>Know what happens next.</h2>
+          <p>
+            Taking the next step should feel straightforward. Start a
+            conversation with the clinic and get guidance on the next
+            steps for your dental care.
+          </p>
+        </div>
+        <div class="journey-steps">
+          <article class="journey-step reveal">
+            <span class="step-no">01 / CONNECT</span>
+            <h3>Get in touch</h3>
+            <p>Book online, call the clinic or send a WhatsApp enquiry.</p>
+          </article>
+          <article class="journey-step reveal">
+            <span class="step-no">02 / DISCUSS</span>
+            <h3>Share your concerns</h3>
+            <p>Tell the dental team what you would like help with.</p>
+          </article>
+          <article class="journey-step reveal">
+            <span class="step-no">03 / UNDERSTAND</span>
+            <h3>Explore your options</h3>
+            <p>Discuss suitable assessment and treatment options with your dentist.</p>
+          </article>
+          <article class="journey-step reveal">
+            <span class="step-no">04 / PLAN</span>
+            <h3>Decide your next step</h3>
+            <p>Understand the recommended plan before proceeding with care.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team-section" id="team">
+      <div class="container">
+        <div class="team-intro-row">
+          <div class="section-head reveal">
+            <span class="eyebrow">Meet the clinical team</span>
+            <h2>People behind your dental care.</h2>
+            <p>
+              Get to know the clinicians listed by Crystal Dental Care
+              and explore their stated areas of interest.
+            </p>
+          </div>
+          <a class="btn btn-outline" href="https://www.crystaldental.sg/about-us">
+            Meet the team <span class="arrow">↗</span>
+          </a>
+        </div>
+
+        <div class="team-grid">
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 01</span>
+            <div>
+              <h3>Dr. Hamed Fesharaki</h3>
+              <span class="degree">BDS</span>
+              <p>Graduate of Trinity College Dublin. Stated interests include orthodontics and surgical procedures.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 02</span>
+            <div>
+              <h3>Dr. Kao Hui-Wen (Joyce)</h3>
+              <span class="degree">B.D.Sc</span>
+              <p>Graduate of the University of Melbourne. Stated interest in aesthetic dentistry.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 03</span>
+            <div>
+              <h3>Dr. Dennis Tng</h3>
+              <span class="degree">B.D.Sc · M.D.S. Orthodontics</span>
+              <p>Graduate of the University of Queensland, with postgraduate orthodontic training listed by the clinic.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 04</span>
+            <div>
+              <h3>Dr. Cheah Xing Yi (Amanda)</h3>
+              <span class="degree">BDS</span>
+              <p>Graduate of the University of Sheffield. Stated interest in root canal treatments.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 05</span>
+            <div>
+              <h3>Dr. Lee Chongyi (Nicholas)</h3>
+              <span class="degree">BDSc</span>
+              <p>Graduate of the University of Queensland. Stated interests include surgery and root canal treatments.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 06</span>
+            <div>
+              <h3>Dr. Kassandra Ong Ying Suen</h3>
+              <span class="degree">BDS</span>
+              <p>Graduate of the National University of Singapore. Stated interest in orthodontics.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 07</span>
+            <div>
+              <h3>Dr. Joyce Pang Jia Hui</h3>
+              <span class="degree">BDS</span>
+              <p>Graduate of the National University of Singapore.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 08</span>
+            <div>
+              <h3>Dr. Foong Ya Qi</h3>
+              <span class="degree">B.D.Sc</span>
+              <p>Graduate of the University of Melbourne. Stated interest in root canal treatment.</p>
+            </div>
+          </article>
+          <article class="doctor reveal">
+            <span class="doctor-index">CLINICAL TEAM / 09</span>
+            <div>
+              <h3>Dr. Chen Roubing</h3>
+              <span class="degree">BDS</span>
+              <p>Graduate of the National University of Singapore. Stated interests include extractions and wisdom teeth surgeries.</p>
+            </div>
+          </article>
+        </div>
+        <p class="team-note">
+          Doctor names, qualifications and interests are presented from
+          the clinic's published team information. Please confirm current
+          team availability directly with the clinic.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container promise-grid">
+        <div class="promise-visual reveal" aria-label="Original tooth illustration">
+          <svg class="tooth-art" viewBox="0 0 220 270" fill="none" role="img" aria-label="Decorative tooth illustration">
+            <path d="M110 22C81 22 62 39 48 61C33 85 37 115 47 145C56 171 67 199 79 222C87 238 99 245 107 227L122 187C127 173 138 173 143 188L157 228C164 247 178 238 186 220C201 185 211 153 214 120C218 78 197 34 161 24C141 18 126 22 110 22Z" fill="#fff" stroke="#116B83" stroke-width="4"/>
+            <path d="M65 76C81 57 96 52 111 54C127 55 140 64 153 77" stroke="#DDF3F5" stroke-width="12" stroke-linecap="round"/>
+            <path d="M85 111C98 121 121 123 137 111" stroke="#168FAF" stroke-width="5" stroke-linecap="round"/>
+            <path d="M98 140C104 145 116 145 122 140" stroke="#A9D9D5" stroke-width="5" stroke-linecap="round"/>
+            <path d="M25 54 12 42M195 48l13-14M23 171l-15 5M199 175l15 6" stroke="#168FAF" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="promise-copy reveal">
+          <span class="eyebrow">A considered standard of care</span>
+          <h2>Modern dentistry, with the details in mind.</h2>
+          <p>
+            Crystal Dental Care describes a patient environment shaped
+            by comfort, hygiene and modern dental equipment. The clinic
+            also highlights its in-house dental laboratory and dedicated
+            sterilisation area.
+          </p>
+          <div class="promise-points">
+            <div class="promise-point">
+              <span class="check">✓</span>
+              <div><strong>A calm clinic environment</strong><p>A relaxation area is listed among the clinic's facilities.</p></div>
+            </div>
+            <div class="promise-point">
+              <span class="check">✓</span>
+              <div><strong>Dedicated sterilisation area</strong><p>The clinic describes dedicated sterilisation facilities and protocols.</p></div>
+            </div>
+            <div class="promise-point">
+              <span class="check">✓</span>
+              <div><strong>In-house dental laboratory</strong><p>An in-house lab is presented as part of the clinic's operational setup.</p></div>
+            </div>
+            <div class="promise-point">
+              <span class="check">✓</span>
+              <div><strong>Modern dental equipment</strong><p>Technology and digital diagnostics are part of the clinic's stated approach.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="appointment-section">
+      <div class="container">
+        <div class="appointment-panel reveal">
+          <div>
+            <h2>Ready to take the next step for your smile?</h2>
+            <p>
+              Connect with Crystal Dental Care in Serangoon to discuss
+              your dental needs and arrange an appointment.
+            </p>
+          </div>
+          <a class="btn btn-light" href="https://www.crystaldental.sg/online-booking">
+            Book online <span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="eyebrow">Find Crystal Dental Care</span>
+          <h2>Your neighbourhood dental clinic in Serangoon.</h2>
+          <p>
+            Visit the clinic at Serangoon Central Drive or contact the
+            team to enquire about appointments and available treatments.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-icon">⌖</span>
+              <div><small>Clinic address</small><strong>262 Serangoon Central Drive, #01-109, Singapore 550262</strong></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon">☎</span>
+              <div><small>Telephone</small><strong><a href="tel:+6566121955">+65 6612 1955</a></strong></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon">✉</span>
+              <div><small>Email</small><strong><a href="mailto:care@crystaldental.sg">care@crystaldental.sg</a></strong></div>
+            </div>
+            <div class="contact-detail">
+              <span class="contact-icon">◉</span>
+              <div><small>WhatsApp</small><strong><a href="https://wa.me/6588115774" target="_blank" rel="noopener">+65 8811 5774</a></strong></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hours-panel reveal">
+          <h3>Opening hours</h3>
+          <p>Plan your visit to Crystal Dental Care.</p>
+          <div style="margin-top:22px">
+            <div class="hours-row"><strong>Monday – Thursday</strong><span>9:00 AM – 8:00 PM</span></div>
+            <div class="hours-row"><strong>Friday – Sunday</strong><span>9:00 AM – 5:00 PM</span></div>
+          </div>
+          <div class="hours-actions">
+            <a class="btn" href="https://www.crystaldental.sg/online-booking">Book an appointment <span class="arrow">↗</span></a>
+            <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=262+Serangoon+Central+Drive+Singapore+550262" target="_blank" rel="noopener">Get directions <span class="arrow">↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="brand" href="#home">
+            <span class="brand-mark">C</span>
+            <span class="brand-name">Crystal Dental Care<span>Serangoon · Singapore</span></span>
+          </a>
+          <p>
+            Gentle, modern dentistry with a clean, transparent and
+            durable approach. Supporting your dental health with
+            thoughtful care in Serangoon.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h3>Explore</h3>
+          <div class="footer-links">
+            <a href="#about">Our approach</a>
+            <a href="#services">Dental treatments</a>
+            <a href="#team">Our doctors</a>
+            <a href="#contact">Contact & opening hours</a>
+            <a href="https://www.crystaldental.sg/about-us">About the clinic</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3>Get in touch</h3>
+          <div class="footer-links">
+            <a href="tel:+6566121955">+65 6612 1955</a>
+            <a href="mailto:care@crystaldental.sg">care@crystaldental.sg</a>
+            <a href="https://wa.me/6588115774" target="_blank" rel="noopener">WhatsApp the clinic</a>
+            <a href="https://www.crystaldental.sg/online-booking">Online booking</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="current-year">2026</span> Crystal Dental Care. All rights reserved.</span>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a class="btn btn-outline" href="tel:+6566121955">Call clinic</a>
+    <a class="btn" href="https://www.crystaldental.sg/online-booking">Book now</a>
+  </div>
+
+  <script>
+    (() => {
+      const menuButton = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".nav-links");
+
+      if (menuButton && nav) {
+        menuButton.addEventListener("click", () => {
+          const isOpen = nav.classList.toggle("is-open");
+          menuButton.setAttribute("aria-expanded", String(isOpen));
+          menuButton.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+          menuButton.textContent = isOpen ? "×" : "☰";
+        });
+
+        nav.querySelectorAll("a").forEach(link => {
+          link.addEventListener("click", () => {
+            nav.classList.remove("is-open");
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open navigation");
+            menuButton.textContent = "☰";
+          });
+        });
+      }
+
+      const year = document.getElementById("current-year");
+      if (year) year.textContent = new Date().getFullYear();
+
+      const revealItems = document.querySelectorAll(".reveal");
+      if ("IntersectionObserver" in window) {
+        const observer = new IntersectionObserver((entries, obs) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              obs.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+
+        revealItems.forEach(item => observer.observe(item));
+      } else {
+        revealItems.forEach(item => item.classList.add("is-visible"));
+      }
+    })();
+  </script>
+</body>
+</html>
